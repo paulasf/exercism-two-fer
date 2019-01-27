@@ -1,7 +1,5 @@
-def two_fer(name=''):
-    name = name if name else 'you'
-    sentence = f'One for {name}, one for me.'
+def two_fer(name='you'):
+    return f'One for {name}, one for me.'
 
-    return sentence
 
 
